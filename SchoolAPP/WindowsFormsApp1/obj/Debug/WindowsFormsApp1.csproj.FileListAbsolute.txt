@@ -1,0 +1,42 @@
+D:\Program\SchoolAPP 2\SchoolApp\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Program\SchoolAPP 2\SchoolApp\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Program\SchoolAPP 2\SchoolApp\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Program\SchoolAPP 2\SchoolApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\Program\SchoolAPP 2\SchoolApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Program\SchoolAPP 2\SchoolApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Program\SchoolAPP 2\SchoolApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Program\SchoolAPP 2\SchoolApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Program\SchoolAPP 2\SchoolApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Program\SchoolAPP 2\SchoolApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\Program\SchoolAPP 2\SchoolApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.submit.resources
+D:\Program\SchoolAPP 2\SchoolApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.homework.resources
+D:\Program\SchoolAPP 2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Program\SchoolAPP 2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Program\SchoolAPP 2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Program\SchoolAPP 2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\Program\SchoolAPP 2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.submit.resources
+D:\Program\SchoolAPP 2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Program\SchoolAPP 2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Program\SchoolAPP 2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Program\SchoolAPP 2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Program\SchoolAPP 2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Program\SchoolAPP 2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.calculater.resources
+D:\Program\SchoolAPP 2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game1.resources
+D:\Program\SchoolAPP 2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game2.resources
+D:\Program\SchoolAPP 2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Exams.resources
+D:\Program\SchoolAPP 2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game3.resources
+D:\Program\SchoolAPP\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Program\SchoolAPP\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Program\SchoolAPP\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.calculater.resources
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Exams.resources
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game3.resources
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game2.resources
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.submit.resources
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game1.resources
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
