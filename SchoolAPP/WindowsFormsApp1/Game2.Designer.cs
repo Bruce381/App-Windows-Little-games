@@ -35,6 +35,7 @@
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.start = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -90,11 +91,23 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "t";
             // 
+            // start
+            // 
+            this.start.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.start.Location = new System.Drawing.Point(676, 382);
+            this.start.Name = "start";
+            this.start.Size = new System.Drawing.Size(146, 52);
+            this.start.TabIndex = 4;
+            this.start.Text = "Start";
+            this.start.UseVisualStyleBackColor = true;
+            this.start.Click += new System.EventHandler(this.start_Click);
+            // 
             // Game2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(834, 446);
+            this.Controls.Add(this.start);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
@@ -114,5 +127,6 @@
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button start;
     }
 }

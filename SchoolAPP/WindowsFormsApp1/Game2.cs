@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
         private void Game2_Load(object sender, EventArgs e)
         {
             label1.Text = string.Empty;
-            Game_Start();
+            
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -66,6 +66,10 @@ namespace WindowsFormsApp1
             Change_button();
             timer2.Start(); // 启动定时器
         }
+        private void start_Click(object sender, EventArgs e)
+        {
+            Game_Start();
+        }
 
         private void Game_Stop()
         {
@@ -111,5 +115,7 @@ namespace WindowsFormsApp1
                 Game_Stop(); // 结束游戏
             }
         }
+
+        
     }
 }

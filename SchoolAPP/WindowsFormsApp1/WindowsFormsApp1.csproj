@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Game4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game4.Designer.cs">
+      <DependentUpon>Game4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="root.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="root.Designer.cs">
+      <DependentUpon>root.cs</DependentUpon>
+    </Compile>
     <Compile Include="calculater.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,11 +82,11 @@
     <Compile Include="Game2.Designer.cs">
       <DependentUpon>Game2.cs</DependentUpon>
     </Compile>
-    <Compile Include="login.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="login.Designer.cs">
-      <DependentUpon>login.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Game1.cs">
       <SubType>Form</SubType>
@@ -96,8 +108,11 @@
     <EmbeddedResource Include="Game2.resx">
       <DependentUpon>Game2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="login.resx">
-      <DependentUpon>login.cs</DependentUpon>
+    <EmbeddedResource Include="Game4.resx">
+      <DependentUpon>Game4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Game1.resx">
       <DependentUpon>Game1.cs</DependentUpon>
@@ -110,7 +125,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="root.resx">
+      <DependentUpon>root.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -120,9 +139,19 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="user.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miku_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GbJUfOcWcAAbi-g.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

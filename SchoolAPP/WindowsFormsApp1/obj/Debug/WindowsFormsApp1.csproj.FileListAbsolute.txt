@@ -33,10 +33,12 @@ D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.calculater.reso
 D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Exams.resources
 D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game3.resources
 D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game2.resources
-D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.submit.resources
 D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game1.resources
 D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
 D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.root.resources
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game4.resources
+D:\Program\SchoolAPP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
