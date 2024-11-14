@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Data));
             this.choose_type = new System.Windows.Forms.ComboBox();
             this.show_data_name = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,6 +48,8 @@
             this.statistics = new System.Windows.Forms.Button();
             this.exit = new System.Windows.Forms.Button();
             this.comboBox_class = new System.Windows.Forms.ComboBox();
+            this.label_show_time = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // choose_type
@@ -56,8 +60,8 @@
             this.choose_type.FormattingEnabled = true;
             this.choose_type.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.choose_type.Items.AddRange(new object[] {
-            "成绩从小到大",
-            "成绩从大到小"});
+            "from low to high",
+            "from high to low"});
             this.choose_type.Location = new System.Drawing.Point(16, 103);
             this.choose_type.Name = "choose_type";
             this.choose_type.Size = new System.Drawing.Size(318, 33);
@@ -71,7 +75,7 @@
             this.show_data_name.ItemHeight = 31;
             this.show_data_name.Location = new System.Drawing.Point(12, 181);
             this.show_data_name.Name = "show_data_name";
-            this.show_data_name.Size = new System.Drawing.Size(260, 345);
+            this.show_data_name.Size = new System.Drawing.Size(300, 345);
             this.show_data_name.TabIndex = 1;
             // 
             // label1
@@ -143,9 +147,9 @@
             this.show_user.AccessibleRole = System.Windows.Forms.AccessibleRole.Clock;
             this.show_user.BackColor = System.Drawing.Color.Transparent;
             this.show_user.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.show_user.Location = new System.Drawing.Point(696, 9);
+            this.show_user.Location = new System.Drawing.Point(620, 9);
             this.show_user.Name = "show_user";
-            this.show_user.Size = new System.Drawing.Size(158, 31);
+            this.show_user.Size = new System.Drawing.Size(234, 31);
             this.show_user.TabIndex = 9;
             this.show_user.Text = "Hello";
             this.show_user.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -157,7 +161,7 @@
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 151);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(260, 27);
+            this.label3.Size = new System.Drawing.Size(300, 27);
             this.label3.TabIndex = 10;
             this.label3.Text = "Name";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -167,9 +171,9 @@
             this.label4.AccessibleRole = System.Windows.Forms.AccessibleRole.Clock;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(309, 151);
+            this.label4.Location = new System.Drawing.Point(318, 151);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(260, 27);
+            this.label4.Size = new System.Drawing.Size(300, 27);
             this.label4.TabIndex = 11;
             this.label4.Text = "Class";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -179,9 +183,9 @@
             this.label5.AccessibleRole = System.Windows.Forms.AccessibleRole.Clock;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(594, 151);
+            this.label5.Location = new System.Drawing.Point(624, 151);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(260, 27);
+            this.label5.Size = new System.Drawing.Size(300, 27);
             this.label5.TabIndex = 12;
             this.label5.Text = "Result";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -192,9 +196,9 @@
             this.show_data_class.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.show_data_class.FormattingEnabled = true;
             this.show_data_class.ItemHeight = 31;
-            this.show_data_class.Location = new System.Drawing.Point(309, 181);
+            this.show_data_class.Location = new System.Drawing.Point(318, 181);
             this.show_data_class.Name = "show_data_class";
-            this.show_data_class.Size = new System.Drawing.Size(260, 345);
+            this.show_data_class.Size = new System.Drawing.Size(300, 345);
             this.show_data_class.TabIndex = 13;
             // 
             // show_data_result
@@ -203,9 +207,9 @@
             this.show_data_result.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.show_data_result.FormattingEnabled = true;
             this.show_data_result.ItemHeight = 31;
-            this.show_data_result.Location = new System.Drawing.Point(594, 181);
+            this.show_data_result.Location = new System.Drawing.Point(624, 181);
             this.show_data_result.Name = "show_data_result";
-            this.show_data_result.Size = new System.Drawing.Size(260, 345);
+            this.show_data_result.Size = new System.Drawing.Size(300, 345);
             this.show_data_result.TabIndex = 14;
             // 
             // set
@@ -257,11 +261,29 @@
             this.comboBox_class.Size = new System.Drawing.Size(136, 33);
             this.comboBox_class.TabIndex = 18;
             // 
+            // label_show_time
+            // 
+            this.label_show_time.AccessibleRole = System.Windows.Forms.AccessibleRole.Clock;
+            this.label_show_time.BackColor = System.Drawing.Color.Transparent;
+            this.label_show_time.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_show_time.Location = new System.Drawing.Point(616, 43);
+            this.label_show_time.Name = "label_show_time";
+            this.label_show_time.Size = new System.Drawing.Size(238, 31);
+            this.label_show_time.TabIndex = 19;
+            this.label_show_time.Text = "time";
+            this.label_show_time.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Data
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(866, 533);
+            this.ClientSize = new System.Drawing.Size(940, 533);
+            this.Controls.Add(this.label_show_time);
             this.Controls.Add(this.comboBox_class);
             this.Controls.Add(this.exit);
             this.Controls.Add(this.statistics);
@@ -281,6 +303,7 @@
             this.Controls.Add(this.show_data_name);
             this.Controls.Add(this.choose_type);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Data";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "School";
@@ -311,6 +334,8 @@
         private System.Windows.Forms.Button statistics;
         private System.Windows.Forms.Button exit;
         private System.Windows.Forms.ComboBox comboBox_class;
+        private System.Windows.Forms.Label label_show_time;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

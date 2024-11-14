@@ -1,6 +1,6 @@
 ﻿namespace School_APP
 {
-    partial class login
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.textBox_username = new System.Windows.Forms.TextBox();
             this.textBox_password = new System.Windows.Forms.TextBox();
             this.sine_in = new System.Windows.Forms.Button();
@@ -45,6 +45,7 @@
             this.textBox_username.Size = new System.Drawing.Size(315, 38);
             this.textBox_username.TabIndex = 0;
             this.textBox_username.Text = "User name";
+            this.textBox_username.Click += new System.EventHandler(this.textBox_username_Click);
             // 
             // textBox_password
             // 
@@ -55,6 +56,7 @@
             this.textBox_password.Size = new System.Drawing.Size(315, 38);
             this.textBox_password.TabIndex = 1;
             this.textBox_password.Text = "Password";
+            this.textBox_password.Click += new System.EventHandler(this.textBox_password_Click);
             // 
             // sine_in
             // 
@@ -64,7 +66,7 @@
             this.sine_in.Name = "sine_in";
             this.sine_in.Size = new System.Drawing.Size(138, 46);
             this.sine_in.TabIndex = 2;
-            this.sine_in.Text = "Log in";
+            this.sine_in.Text = "Login";
             this.sine_in.UseVisualStyleBackColor = false;
             this.sine_in.Click += new System.EventHandler(this.sine_in_Click);
             // 
@@ -102,7 +104,7 @@
             this.exit.UseVisualStyleBackColor = false;
             this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
-            // login
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -115,10 +117,10 @@
             this.Controls.Add(this.textBox_username);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "login";
+            this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "login";
-            this.Load += new System.EventHandler(this.login_Load);
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

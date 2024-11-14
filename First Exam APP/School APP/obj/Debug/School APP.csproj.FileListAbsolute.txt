@@ -9,3 +9,14 @@ D:\Program\School APP\School APP\bin\Debug\Bruce Homework.exe
 D:\Program\School APP\School APP\bin\Debug\Bruce Homework.pdb
 D:\Program\School APP\School APP\obj\Debug\Bruce Homework.exe
 D:\Program\School APP\School APP\obj\Debug\Bruce Homework.pdb
+D:\Program\First Exam APP\School APP\bin\Debug\Bruce Homework.exe.config
+D:\Program\First Exam APP\School APP\bin\Debug\Bruce Homework.exe
+D:\Program\First Exam APP\School APP\bin\Debug\Bruce Homework.pdb
+D:\Program\First Exam APP\School APP\obj\Debug\School APP.csproj.AssemblyReference.cache
+D:\Program\First Exam APP\School APP\obj\Debug\School_APP.Data.resources
+D:\Program\First Exam APP\School APP\obj\Debug\School_APP.login.resources
+D:\Program\First Exam APP\School APP\obj\Debug\School_APP.Properties.Resources.resources
+D:\Program\First Exam APP\School APP\obj\Debug\School APP.csproj.GenerateResource.cache
+D:\Program\First Exam APP\School APP\obj\Debug\School APP.csproj.CoreCompileInputs.cache
+D:\Program\First Exam APP\School APP\obj\Debug\Bruce Homework.exe
+D:\Program\First Exam APP\School APP\obj\Debug\Bruce Homework.pdb
