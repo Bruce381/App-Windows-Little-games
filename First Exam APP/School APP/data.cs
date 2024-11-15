@@ -1,6 +1,6 @@
 ﻿// ********************************************************************
 // Project: First exam
-// Author: (WANG YONGJI) Bruce
+// Author: Bruce
 // Date Created: 2024-11-14
 // Description: A Windows Forms application to manage student data.
 // License: MIT License
@@ -261,6 +261,11 @@ namespace School_APP
         private void timer1_Tick(object sender, EventArgs e)
         {
             label_show_time.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+        }
+
+        private void show_user_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

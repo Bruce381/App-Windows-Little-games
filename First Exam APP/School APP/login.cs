@@ -1,6 +1,6 @@
 ﻿// ********************************************************************
 // Project: First Exam
-// Author: (WANG YONGJI) Bruce
+// Author: Bruce
 // Date Created: 2024-11-14
 // Description: A Windows Forms application to manage student data.
 // License: MIT License
@@ -101,6 +101,24 @@ namespace School_APP
             textBox_password.Clear(); // Clear the password text box when clicked
         }
 
+        private void textBox_username_KeyDown(object sender, KeyEventArgs e)
+        {
+            // 检测是否按下 Enter 键
+            if (e.KeyCode == Keys.Enter)
+            {
+                // 将焦点设置到 password 输入框
+                textBox_password.Focus();
+            }
+        }
 
+        private void textBox_password_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // 检测是否按下 Enter 键
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                // 执行登录按钮的点击事件
+                sine_in_Click(sender, e);
+            }
+        }
     }
 }

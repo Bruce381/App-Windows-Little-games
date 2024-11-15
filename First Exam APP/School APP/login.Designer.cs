@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.textBox_username = new System.Windows.Forms.TextBox();
             this.textBox_password = new System.Windows.Forms.TextBox();
@@ -35,6 +36,7 @@
             this.label = new System.Windows.Forms.Label();
             this.show_error = new System.Windows.Forms.Label();
             this.exit = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // textBox_username
@@ -46,6 +48,7 @@
             this.textBox_username.TabIndex = 0;
             this.textBox_username.Text = "User name";
             this.textBox_username.Click += new System.EventHandler(this.textBox_username_Click);
+            this.textBox_username.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_username_KeyDown);
             // 
             // textBox_password
             // 
@@ -57,6 +60,7 @@
             this.textBox_password.TabIndex = 1;
             this.textBox_password.Text = "Password";
             this.textBox_password.Click += new System.EventHandler(this.textBox_password_Click);
+            this.textBox_password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_password_KeyPress);
             // 
             // sine_in
             // 
@@ -104,6 +108,10 @@
             this.exit.UseVisualStyleBackColor = false;
             this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -133,5 +141,6 @@
         private System.Windows.Forms.Button exit;
         private System.Windows.Forms.TextBox textBox_username;
         private System.Windows.Forms.TextBox textBox_password;
+        private System.Windows.Forms.Timer timer1;
     }
 }
